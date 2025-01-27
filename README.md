@@ -1,73 +1,113 @@
-# DonatingHand
-The sharp increase in the huge amount of waste of food makes the need for donation of food. 
-In highly populated countries like India, food wastage is a big problem. Waste food is a major issue that food shortage, we can see that many people throw food in dustbins even if the food is eatable condition.
-This issue is not only a waste of food but even a waste of money also. It causes many environmental problems such as pollution, causing global warming, and climate change.
-This product is an android-based application, it is a platform for donating remaining food to needy people. 
-This app developed a common combination by connecting to a donor and a volunteer from the NGO was the donor.
-
-### Flow Chart of Application
-
-### ![image](https://user-images.githubusercontent.com/88217702/236163460-aed49979-6185-4ca6-8e4b-20789bb548f8.png)
 
 
-Software Requirements 
+# 🍽️ **DonatingHand: Food Donation Android App**
 
-     Front End: XML, Material Design
-     
-     Back End: JAVA, FireBase
-     
-     Android Tools:
-     
-           IDE: android Studio
-           
-           Android Emulator
-           
-           Firebase
-           
-Hardware Requirements:
+**DonatingHand** is an Android-based mobile application designed to combat food wastage by connecting donors with people in need. In countries with high populations like India, food waste has become a significant issue, contributing to environmental problems and the global food crisis. This application facilitates the donation of leftover food to the needy, offering a seamless platform for donors, volunteers, and recipients to connect.
 
-  Processor                          :   Intel 3
-  
-  Installed memory (RAM)   :   4 GB
-  
-  Hard Disk                          :   500 GB
-  
-  Operating System             :   Windows 7,8,10 - 64 bit
-  
-### App logo
- 
- ![image](https://user-images.githubusercontent.com/88217702/236170747-d67e55df-f40c-4009-8939-3fbb9518e8ad.png)
+The app's goal is to help reduce food waste and alleviate hunger by enabling individuals to donate excess food in a simple, user-friendly way. The platform also integrates with NGOs for effective food distribution.
 
-  
-### Screenshots of Application
-Splash Screen
-![image](https://user-images.githubusercontent.com/88217702/236166111-990933d8-5eb1-406b-b592-f3bbc6acea9a.png)
-Main Menu 
-![image](https://user-images.githubusercontent.com/88217702/236166292-30741722-3356-4266-853e-cf17b24648b2.png)
-Register Page
-![image](https://user-images.githubusercontent.com/88217702/236166235-b8c7ec9e-bcb6-4785-b8c4-d93c12cdca50.png)
+---
 
-Home Page 
-![image](https://user-images.githubusercontent.com/88217702/236166495-63d14fc0-d9cd-4d8f-bd71-88ce7824ca43.png)
-Search Page 
-![image](https://user-images.githubusercontent.com/88217702/236166544-ed1111df-00d5-414a-885e-45d88b061a17.png)
-Admin Page 
-![image](https://user-images.githubusercontent.com/88217702/236166639-7920c6e7-67c7-44ad-9576-252b6d4ae92a.png)
+## 🚀 **Features**
 
-Donation Interface
-![image](https://user-images.githubusercontent.com/88217702/236166809-21a60a47-336f-48e9-b283-2c2ce2ff0197.png)
+- **Food Donation**: Users can donate food by providing information such as food items, quantity, address, and contact details.
+- **Search Functionality**: Recipients or volunteers can search for available donations near their location.
+- **Admin Panel**: Admins can monitor donations and manage the app’s data.
+- **Multiple Donation Types**: Users can donate cooked food, leftovers, raw food, or even other items like clothes and books.
+- **Review System**: After food delivery, users can leave feedback to improve the donation process.
+- **Profile Management**: Users can update their personal information and manage their donations.
 
-### Conclusion
+---
 
-The food wastage management app developed using the Android studio displays the login page for the visitor. Once the visitor logins to the app, the visitor can donate food by adding the food item, quantity, address, phone number, photo, etc. And visitors or acceptors search for food at nearby locations and can order the food item available.
+## 🛠️ **Technologies Used**
 
-Then Donor gets a call from the recipient. They Communicate about the food available if there is any problem faced then the donor can reject to donate. After the successful communication and the food is delivered to the acceptor the review can be given. Operations like registration and system login are carried out by the Donor. Those who donate food can upload images of the food they've given away. 
+- **Frontend**: XML, Material Design (for the app’s interface).
+- **Backend**: Java (for app logic), Firebase (for real-time database and authentication).
+- **Android Tools**:  
+  - **IDE**: Android Studio  
+  - **Emulator**: Android Emulator  
+  - **Database**: Firebase Realtime Database
 
-Users can donate cooked food, leftovers, and raw food, and there’s another option called Others where users can distribute other than food like clothes, and books. etc. Search option is available in the home page to search items as per the user’s need. Personal data can be modified by users by update the profile option. Reviews and queries are able to be submitted to the email address provided.
+---
 
-There is also an admin login, where the admin can check the details of the food or items being donated and by whom they are being taken. This application/project can be very helpful in the fight against issues like malnutrition, hunger, and starvation.
+## 📂 **Project Structure**
 
+- **`MainActivity.java`**: Contains the logic for the app’s main interface, including navigation to different pages.
+- **`DonationActivity.java`**: Handles food donation-related operations.
+- **`SearchActivity.java`**: Manages the search for available food donations.
+- **`AdminActivity.java`**: Admin interface to manage donations and monitor data.
+- **`firebaseHelper.java`**: Manages Firebase operations like storing data and user authentication.
+- **`activity_main.xml`**: Layout for the main screen of the app.
+- **`activity_donation.xml`**: Layout for the food donation form.
 
+---
 
+## 🔧 **Installation & Setup**
 
+### 1. **Clone the Repository**  
+   ```bash  
+   git clone https://github.com/your-username/donatinghand.git  
+   cd donatinghand  
+   ```
+
+### 2. **Setup Firebase**  
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+   - Add the **google-services.json** file to your app's `app/` directory for Firebase integration.
+
+### 3. **Open Project in Android Studio**  
+   - Open Android Studio.
+   - Select **File → Open**, and choose the project directory.
+   - Click **Sync** to ensure all dependencies are correctly installed.
+
+### 4. **Run the App**  
+   - Once everything is set up, click **Run** in Android Studio to launch the app in an Android Emulator or on a physical device.
+
+---
+
+## 📸 **Screenshots**
+
+### Splash Screen
+![Splash Screen](https://user-images.githubusercontent.com/88217702/236166111-990933d8-5eb1-406b-b592-f3bbc6acea9a.png)
+
+### Main Menu
+![Main Menu](https://user-images.githubusercontent.com/88217702/236166292-30741722-3356-4266-853e-cf17b24648b2.png)
+
+### Register Page
+![Register Page](https://user-images.githubusercontent.com/88217702/236166235-b8c7ec9e-bcb6-4785-b8c4-d93c12cdca50.png)
+
+### Home Page
+![Home Page](https://user-images.githubusercontent.com/88217702/236166495-63d14fc0-d9cd-4d8f-bd71-88ce7824ca43.png)
+
+### Search Page
+![Search Page](https://user-images.githubusercontent.com/88217702/236166544-ed1111df-00d5-414a-885e-45d88b061a17.png)
+
+### Admin Page
+![Admin Page](https://user-images.githubusercontent.com/88217702/236166639-7920c6e7-67c7-44ad-9576-252b6d4ae92a.png)
+
+### Donation Interface
+![Donation Interface](https://user-images.githubusercontent.com/88217702/236166809-21a60a47-336f-48e9-b283-2c2ce2ff0197.png)
+
+---
+
+## 💻 **Hardware Requirements**
+
+- **Processor**: Intel Core i3 or above
+- **Installed Memory (RAM)**: 4 GB
+- **Hard Disk**: 500 GB
+- **Operating System**: Windows 7, 8, 10 (64-bit)
+
+---
+
+## 🔒 **Conclusion**
+
+The **DonatingHand** app aims to combat food wastage and hunger by creating a platform where users can donate leftover food. By connecting donors with recipients, the app helps reduce food waste and supports NGOs in their mission to tackle hunger.
+
+With its easy-to-use interface, the app offers food donations, search capabilities for recipients, and an admin interface for monitoring food distribution. This project can be an important step in the fight against food scarcity and malnutrition.
+
+---
+
+## 📫 **Contact**  
+For any questions or feedback, feel free to reach out:  
+- **Email**: [rashmithapadmashetti1819@gmail.com](mailto:rashmithapadmashetti1819@gmail.com)  
+- **LinkedIn**: [Rashmitha Padmashetti](https://www.linkedin.com/in/rashmithapadmashetti/)  
 
